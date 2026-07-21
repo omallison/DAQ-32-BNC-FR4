@@ -1,0 +1,15 @@
+# KiCad
+*-backups/
+*.bak
+*.kicad_sch-lock
+*.kicad_pcb-lock
+fp-info-cache
+_autosave*
+*.lck
+
+# History
+.history/
+
+# OS
+Thumbs.db
+.DS_Store

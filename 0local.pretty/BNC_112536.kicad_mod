@@ -1,0 +1,154 @@
+(footprint "BNC_112536"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BNC female PCB mount 4 pin straight chassis connector http://www.te.com/usa-en/product-1-1478204-0.html")
+	(tags "BNC female PCB mount 4 pin straight chassis connector ")
+	(property "Reference" "REF**"
+		(at 0 -10.16 0)
+		(layer "F.SilkS")
+		(uuid "5913d04b-fc38-41d6-838f-427c5cc12474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BNC_112536"
+		(at 0 10 0)
+		(layer "F.Fab")
+		(uuid "ee9746ff-aae0-4ca5-b188-cc6e97d00867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "685d67af-ac48-4742-ab21-c486e6a0e284")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "345c2ab0-b5f8-4f29-84fb-f14ade619568")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.763 -8.763)
+		(end 8.763 8.763)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9bfcb5ad-12e7-4a1d-af64-d324640caa64")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b9aa5c04-7a16-4b74-a6ab-066a7d1d9496")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a21a3d9c-6c11-4f52-8401-f5259b1d58ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.556 3.556)
+		(drill 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0f7bfb4-2033-4ee5-a1c9-e4e5b846ec80")
+	)
+	(pad "2" thru_hole circle
+		(at -6.35 -6.35)
+		(size 3.81 3.81)
+		(drill 1.7526)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "553b2698-79f2-4522-9029-f003906cce61")
+	)
+	(pad "2" thru_hole circle
+		(at -6.35 6.35)
+		(size 3.81 3.81)
+		(drill 1.7526)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f21f9418-7d42-4668-9843-8d8fac878198")
+	)
+	(pad "2" thru_hole circle
+		(at 6.35 -6.35)
+		(size 3.81 3.81)
+		(drill 1.7526)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2cba9ae-5d2e-4ce8-8282-96fe847d4171")
+	)
+	(pad "2" thru_hole circle
+		(at 6.35 6.35)
+		(size 3.81 3.81)
+		(drill 1.7526)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d1bd656-097b-4603-a789-891bc267ca20")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D/112536.stp"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/3D/31-5329-51rfx.stp"
+		(offset
+			(xyz 0 0 17.145)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)
