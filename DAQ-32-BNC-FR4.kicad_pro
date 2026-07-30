@@ -528,7 +528,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "quartz-breakout.step",
+      "step": "DAQ-32-BNC-FR4.step",
       "svg": "",
       "vrml": ""
     },
