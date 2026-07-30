@@ -9,7 +9,7 @@ Made in KiCad 9.0.7
   - No shield grounding (differential pairs)
 - D connectors lined up with the Quartz Chassis
 
-## Panel Image
+## Panel / PCB Screen Capture 
 
 <img width="2049" height="515" alt="image" src="https://github.com/user-attachments/assets/c897b3ec-bb40-4173-8001-10124abdcea8" />
 
