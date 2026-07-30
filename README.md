@@ -3,7 +3,7 @@
 Made in KiCad 9.0.7
 
 - PCB is the panel (thickness: 3.2mm)
-- Local (meant for short ribbon cable: 3M 8237-6000 connectors)
+- Local (meant for short ribbon cable: [3M 8237-6000](https://www.digikey.com/en/products/detail/3m/8237-6000/26682209) connectors)
   - D connectors come out the front
   - Would be rack mounted directly above the Quartz chassis 
   - No shield grounding (differential pairs)
